@@ -21,7 +21,7 @@ class RandomNumberGenerator:
         else:
            self.randomints.append((self.a*self.randomints[-1])%self.m)
 	self.count+=1
-        return self.randomints[-1]/self.m #return a/m
+        return self.randomints[-1]/self.m #return x/m to get x between 0 and 1
         
 def main():
     x=RandomNumberGenerator()
