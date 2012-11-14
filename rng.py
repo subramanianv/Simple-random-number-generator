@@ -6,7 +6,6 @@ This is code for a very simple linear congruential random number generator.
 Author     : Subramanian Venkatesan
 Language   : Python
 """
-
 import time
 class RandomNumberGenerator:
     #constructor
