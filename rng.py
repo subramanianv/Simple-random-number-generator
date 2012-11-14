@@ -7,7 +7,6 @@ Author     : Subramanian Venkatesan
 Language   : Python
 """
 
-import sys
 import time
 class RandomNumberGenerator:
     def __init__(self):
